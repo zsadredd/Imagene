@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChromaType AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cinzel:wght@700&family=Inter:wght@400;600&family=Orbitron:wght@700&family=Permanent+Marker&family=Playfair+Display:ital,wght@1,700&family=Space+Grotesk:wght@700&family=JetBrains+Mono:wght@500&family=Patrick+Hand&family=Press+Start+2P&family=Indie+Flower&family=Pacifico&family=UnifrakturMaguntia&family=Special+Elite&family=Great+Vibes&family=Bangers&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              cyber: ['Orbitron', 'sans-serif'],
+              vintage: ['Playfair Display', 'serif'],
+              marker: ['Permanent Marker', 'cursive'],
+              grotesk: ['Space Grotesk', 'sans-serif'],
+              cinzel: ['Cinzel', 'serif'],
+              abril: ['Abril Fatface', 'cursive'],
+              mono: ['JetBrains Mono', 'monospace'],
+              architect: ['Patrick Hand', 'cursive'],
+              pixel: ['"Press Start 2P"', 'cursive'],
+              hand: ['"Indie Flower"', 'cursive'],
+              script: ['Pacifico', 'cursive'],
+              gothic: ['UnifrakturMaguntia', 'cursive'],
+              typewriter: ['"Special Elite"', 'monospace'],
+              elegant: ['"Great Vibes"', 'cursive'],
+              comic: ['Bangers', 'cursive'],
+            },
+            colors: {
+              gray: {
+                750: '#2d3748',
+                850: '#1a202c',
+                950: '#0d1117',
+              }
+            }
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.33.0",
+    "clsx": "https://esm.sh/clsx@^2.1.1",
+    "tailwind-merge": "https://esm.sh/tailwind-merge@^3.4.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-950 text-white min-h-screen">
+    <div id="root"></div>
+  </body>
+</html>
