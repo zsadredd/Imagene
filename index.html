@@ -57,5 +57,20 @@
 </head>
   <body class="bg-gray-950 text-white min-h-screen">
     <div id="root"></div>
+    <script type="module">
+  import React from "react";
+  import { createRoot } from "react-dom/client";
+
+  const App = () => (
+    <div class="flex items-center justify-center min-h-screen">
+      <h1 class="text-4xl font-cyber text-purple-400">
+        ChromaType AI is Live 🚀
+      </h1>
+    </div>
+  );
+
+  createRoot(document.getElementById("root")).render(App());
+</script>
+
   </body>
 </html>
